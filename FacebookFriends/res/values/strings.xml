@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">FacebookFriends</string>
+    <string name="text"></string>
+    <string name="getfriendslist"> Get list of your friends</string>    
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Facebook Friends</string>
+    <string name="friend_picture">Friend Picture</string>    
+
+</resources>
