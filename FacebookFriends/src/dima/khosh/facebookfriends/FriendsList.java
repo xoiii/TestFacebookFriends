@@ -48,22 +48,15 @@ public class FriendsList extends Activity implements OnItemClickListener {
         friendsList.setOnItemClickListener(this);
         friendsList.setAdapter(new FriendListAdapter(this));
 
-        //showToast(getString(R.string.can_post_on_wall));
     }
 
     /*
-     * Clicking on a friend should popup a dialog for user to post on friend's
-     * wall.
+     * Clicking on a friend show friend's details
      */
     @Override
     public void onItemClick(AdapterView<?> arg0, View v, int position, long arg3) {
         try {
             
-        	/*
-        	final long friendId;
-            friendId = jsonArray.getJSONObject(position).getLong("uid");
-            String name = jsonArray.getJSONObject(position).getString("name");
-            */
             String friendJsonObj = jsonArray.getJSONObject(position).toString();
             
             Intent myIntent = new Intent(getApplicationContext(), FriendDetailsActivity.class);

@@ -29,21 +29,18 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
-        public static final int big_image=0x7f080004;
-        public static final int friend_item=0x7f08000b;
-        public static final int friends_list=0x7f08000f;
+        public static final int friend_item=0x7f080008;
+        public static final int friends_list=0x7f08000c;
         public static final int getfriendslist=0x7f080003;
-        public static final int info=0x7f08000e;
+        public static final int info=0x7f08000b;
         public static final int login=0x7f080001;
-        public static final int menu_settings=0x7f080010;
-        public static final int name=0x7f08000d;
-        public static final int profile_pic=0x7f08000c;
-        public static final int tx_aboutme=0x7f080005;
-        public static final int tx_birthday=0x7f080008;
-        public static final int tx_employer=0x7f080009;
-        public static final int tx_position=0x7f08000a;
-        public static final int tx_profile_url=0x7f080006;
-        public static final int tx_website=0x7f080007;
+        public static final int menu_settings=0x7f08000d;
+        public static final int name=0x7f08000a;
+        public static final int profile_pic=0x7f080009;
+        public static final int tx_aboutme=0x7f080007;
+        public static final int tx_birthday=0x7f080004;
+        public static final int tx_profile_url=0x7f080005;
+        public static final int tx_website=0x7f080006;
         public static final int txt=0x7f080002;
     }
     public static final class layout {
